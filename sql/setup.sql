@@ -10,7 +10,7 @@ CREATE table cats (
     url  VARCHAR NOT NULL, 
     year INT NOT NULL, 
     lives INT NOT NULL, 
-    isSidekick BOOLEAN
+    issidekick BOOLEAN
 );
 
 INSERT INTO cats (name, type, url, year, lives, isSidekick) VALUES ('Felix', 'Tuxedo',  'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Felix_the_cat.svg/200px-Felix_the_cat.svg.png',1892,3,false), 
